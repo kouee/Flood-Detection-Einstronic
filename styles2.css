@@ -1,0 +1,221 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hero Section (background with title) */
+.hero {
+    position: relative;
+    background-image: url('waterleveldetector.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: white;
+    margin: 0;
+    text-align: center;
+    opacity: 0; /* Start invisible */
+    animation: fadeIn 1s ease-in forwards; /* Fade-in animation */
+    animation-delay: 0.2s; /* Optional delay for smoother effect */
+}
+
+
+.hero-content p {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*About Flood Sabah Detection System*/
+.about h2 {
+    font-size: 28px;
+    color: #008888;
+}
+
+
+.about a{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.about h3{
+    font-size: 28px;
+    color: #008888;
+}
+
+
+.about ul {
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.about h4{
+    font-size: 28px;
+    color: #008888;
+ }
+
+.about ul li {
+    font-size: 16px;
+    color: #383838;
+    margin-bottom: 8px;
+}
+
+.about h5{
+    font-size: 28px;
+    color: #008888;
+}
+
+/* Footer Styles */
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    padding: 40px;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-left {
+    max-width: 400px;
+    text-align: left;
+}
+
+.footer-logo {
+    height: 70px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right p {
+    margin-top: 15px;
+}
+
+.copyright {
+    background-color: #000;
+    color: #fff;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    padding: 1px 0;
+    text-align: center;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(0); /* Optional: Adds a slight slide-in effect */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+  }
+  
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+  }
+  
