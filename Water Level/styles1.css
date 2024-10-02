@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Hero Section (background with title) */
+.hero {
+    position: relative;
+    background-image: url('Einstronicwork.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: white;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+/* Center and Align Hardware Section */
+.hardware {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Add space between images */
+    margin-bottom: 20px;
+    text-align: center; /* Center the text under images */
+}
+
+.hardware-item {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center the image and text */
+}
+
+.hardware-pic {
+    width: 150px; /* Adjust the image size */
+    height: auto;
+    transition: transform 0.3s ease;
+    border: 3px solid #ccc; /* Adds a border around the images */
+    border-radius: 15px; /* Rounds the corners */
+    padding: 5px; /* Adds some padding inside the border */
+}
+
+/* Zoom-out effect on hover */
+.hardware-pic:hover {
+    transform: scale(0.9); /* Zoom out a little */
+    border-color: #333; /* Change border color on hover */
+}
+
+/* Center and Style Hardware Title */
+.hardware-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center; /* Center the title */
+}
+
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    padding: 40px;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; /* Ensures padding is considered within the width */
+    margin-left: auto; /* Center the footer */
+    margin-right: auto; /* Center the footer */
+}
+
+.footer-left {
+    max-width: 400px;
+    text-align: left;
+}
+
+.footer-logo {
+    height: 40px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right p {
+    margin-top: 15px;
+}
+
+.copyright {
+    background-color: #000;
+    color: #fff;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    padding: 1px 0;
+    text-align: center;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}

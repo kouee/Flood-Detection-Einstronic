@@ -1,0 +1,223 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+/* Hero Section (background with title) */
+.hero {
+    position: relative;
+    background-image: url('Sabahflood.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: white;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Container for content */
+.container {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Water Level Indicator Styles */
+.water-level-indicator {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+    margin: 20px auto;
+}
+
+.low-circle {
+    background-color: #4CAF50; /* Green for low level */
+}
+
+.mid-circle {
+    background-color: #FFC107; /* Yellow for mid level */
+}
+
+.high-circle {
+    background-color: #F44336; /* Red for high level */
+}
+
+#water-level-text {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Table Styles */
+.table-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 1200px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #bcd5ff;
+    font-weight: bold;
+}
+
+td {
+    font-size: 14px;
+}
+
+/* Table Row Colors */
+.low {
+    background-color: #dff0d8; /* Greenish background for low level */
+}
+
+.mid {
+    background-color: #fcf8e3; /* Yellowish background for mid level */
+}
+
+.high {
+    background-color: #f2dede; /* Reddish background for high level */
+}
+
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    padding: 40px;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box; /* Ensures padding is considered within the width */
+    margin-left: auto; /* Center the footer */
+    margin-right: auto; /* Center the footer */
+}
+
+.footer-left {
+    max-width: 400px;
+    text-align: left;
+}
+
+.footer-logo {
+    height: 40px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right p {
+    margin-top: 15px;
+}
+
+.copyright {
+    background-color: #000;
+    color: #fff;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    padding: 1px 0;
+    text-align: center;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}

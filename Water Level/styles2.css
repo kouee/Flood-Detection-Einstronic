@@ -1,0 +1,267 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+/* Hero Section (background with title) */
+.hero {
+    position: relative;
+    background-image: url('Sabahflood.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: white;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 12px;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+/* About Section */
+.about {
+    padding: 40px 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*About Flood Sabah Detection System*/
+.about h2 {
+    font-size: 28px;
+    color: #008888;
+}
+
+
+.about a{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.about h3{
+    font-size: 28px;
+    color: #008888;
+}
+
+
+.about ul {
+    margin-top: 20px;
+    padding-left: 20px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.about h4{
+    font-size: 28px;
+    color: #008888;
+ }
+
+.about ul li {
+    font-size: 16px;
+    color: #383838;
+    margin-bottom: 8px;
+}
+
+
+
+.about h5{
+    font-size: 28px;
+    color: #008888;
+}
+
+
+
+
+/* Footer Styles */
+.footer {
+    margin-top: 150px;
+    width: 100%;
+    padding: 40px;
+    background: #333;
+    color: #efefef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-left {
+    max-width: 400px;
+    text-align: left;
+}
+
+.footer-logo {
+    height: 70px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right p {
+    margin-top: 15px;
+}
+
+.copyright {
+    background-color: #000;
+    color: #fff;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    padding: 1px 0;
+    text-align: center;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Background image for the entire page */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background 1.jpg'); /* Replace with the actual image file name */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Additional styling to ensure the content appears nicely on top of the background */
+.hero {
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.5), /* Dark overlay with some opacity */
+            rgba(160, 244, 255, 0.637)    /* Fully transparent */
+        ), 
+        url('heavy_rain_jpg-2.jpeg'); /* Your background image */
+        
+    color: rgba(17, 17, 17, 0);
+    padding: 60px;
+    text-align: center;
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+.about {
+    background-color: rgba(255, 255, 255, 0); /* Optional light background for text readability */
+    padding: 20px;
+    
+}
+
+/* Other styles as needed for your design */
