@@ -368,7 +368,7 @@ nav ul li a:hover {
 .hardware {
     display: flex;
     justify-content: center; /* Center the images horizontally */
-    gap:40px; /* Add space between images */
+    gap:20px; /* Add space between images */
     margin-bottom: 10px;
     text-align: center; /* Center the text under images */
 }
@@ -380,7 +380,7 @@ nav ul li a:hover {
 }
 
 .hardware-pic {
-    width: 125px; /* Adjust the image size */
+    width: 100px; /* Adjust the image size */
     height: auto;
     transition: transform 0.3s ease;
     border: 3px solid #ccc; /* Adds a border around the images */
