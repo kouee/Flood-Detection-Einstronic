@@ -19,7 +19,7 @@ header {
 /* Hero Section (background with title) */
 .hero {
     position: relative;
-    background-image: url('Einstronicwork.png');
+    background-image: url('Documentation/Einstronicwork.png');
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -85,7 +85,7 @@ nav ul li a:hover {
 }
 
 /* Center and Align Hardware Section */
-.hardware {
+.technologies {
     display: flex;
     justify-content: center; /* Center the images horizontally */
     gap: 50px; /* Add space between images */
@@ -93,29 +93,26 @@ nav ul li a:hover {
     text-align: center; /* Center the text under images */
 }
 
-.hardware-item {
+.technologies-item {
     display: flex;
     flex-direction: column; /* Stack image and text vertically */
     align-items: center; /* Center the image and text */
 }
 
-.hardware-pic {
+.technologies-pic {
     width: 150px; /* Adjust the image size */
     height: auto;
     transition: transform 0.3s ease;
-    border: 3px solid #ccc; /* Adds a border around the images */
-    border-radius: 15px; /* Rounds the corners */
-    padding: 5px; /* Adds some padding inside the border */
 }
 
 /* Zoom-out effect on hover */
-.hardware-pic:hover {
+.technologies-pic:hover {
     transform: scale(0.9); /* Zoom out a little */
     border-color: #333; /* Change border color on hover */
 }
 
 /* Center and Style Hardware Title */
-.hardware-title {
+.technologies-title {
     font-size: 28px;
     margin-bottom: 20px;
     text-align: center; /* Center the title */
@@ -365,7 +362,7 @@ nav ul li a:hover {
     }
 
 /* Center and Align Hardware Section */
-.hardware {
+.technologies {
     display: flex;
     justify-content: center; /* Center the images horizontally */
     gap:20px; /* Add space between images */
@@ -373,29 +370,26 @@ nav ul li a:hover {
     text-align: center; /* Center the text under images */
 }
 
-.hardware-item {
+.technologies-item {
     display: flex;
     flex-direction: column; /* Stack image and text vertically */
     align-items: center; /* Center the image and text */
 }
 
-.hardware-pic {
+.technologies-pic {
     width: 100px; /* Adjust the image size */
     height: auto;
     transition: transform 0.3s ease;
-    border: 3px solid #ccc; /* Adds a border around the images */
-    border-radius: 15px; /* Rounds the corners */
-    padding: 5px; /* Adds some padding inside the border */
 }
 
 /* Zoom-out effect on hover */
-.hardware-pic:hover {
+.technologies-pic:hover {
     transform: scale(0.9); /* Zoom out a little */
     border-color: #333; /* Change border color on hover */
 }
 
 /* Center and Style Hardware Title */
-.hardware-title {
+.technologiese-title {
     font-size: 28px;
     margin-bottom: 20px;
     text-align: center; /* Center the title */
@@ -405,7 +399,7 @@ nav ul li a:hover {
 .software {
     display: flex;
     justify-content: center; /* Center the images horizontally */
-    gap: 20px; /* Add space between images */
+    gap: 10px; /* Add space between images */
     margin-bottom: 20px;
     text-align: center; /* Center the text under images */
 }
@@ -417,14 +411,14 @@ nav ul li a:hover {
 }
 
 .software-pic {
-    width: 100px; /* Adjust the image size */
+    width: 75px; /* Adjust the image size */
     height: auto;
     transition: transform 0.3s ease;
 }
 
 .googlesheet-pic {
     display: flex;
-    width: 73px; /* Adjust the image size */
+    width: 60px; /* Adjust the image size */
     height: auto;
     transition: transform 0.3s ease;
 }

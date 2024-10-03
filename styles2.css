@@ -19,7 +19,7 @@ header {
 /* Hero Section (background with title) */
 .hero {
     position: relative;
-    background-image: url('waterleveldetector.jpg');
+    background-image: url('About/waterleveldetector.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh; /* Full viewport height */
