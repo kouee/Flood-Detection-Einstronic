@@ -88,7 +88,7 @@ nav ul li a:hover {
 .hardware {
     display: flex;
     justify-content: center; /* Center the images horizontally */
-    gap: 20px; /* Add space between images */
+    gap: 50px; /* Add space between images */
     margin-bottom: 20px;
     text-align: center; /* Center the text under images */
 }
@@ -168,7 +168,57 @@ nav ul li a:hover {
     text-align: center; /* Center the title */
 }
 
+/* General styling for the Credits section */
+.doc-credits-section {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: left;
+}
 
+.doc-credits-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.credits-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px; /* Adds space between the image and the description */
+    justify-content: flex-start; /* Aligns items to the left */
+}
+
+/* Styling the circular profile pictures */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #ccc; /* Border around the image */
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+    transition: transform 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+/* Add hover effect for profile pictures */
+.profile-pic:hover {
+    transform: scale(1.05); /* Slight zoom-in on hover */
+}
+
+/* Styling the description section */
+.credit-description {
+    flex: 1; /* Takes the remaining space */
+    text-align: left; /* Aligns text to the left */
+}
+
+.credit-description h3 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+.credit-description p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
 
 .footer {
     margin-top: 150px;
@@ -314,27 +364,111 @@ nav ul li a:hover {
         font-size: 16px;
     }
 
-    .container {
-        margin-top: 20px;
-        padding: 10px;
+/* Center and Align Hardware Section */
+.hardware {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap:40px; /* Add space between images */
+    margin-bottom: 10px;
+    text-align: center; /* Center the text under images */
+}
+
+.hardware-item {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center the image and text */
+}
+
+.hardware-pic {
+    width: 125px; /* Adjust the image size */
+    height: auto;
+    transition: transform 0.3s ease;
+    border: 3px solid #ccc; /* Adds a border around the images */
+    border-radius: 15px; /* Rounds the corners */
+    padding: 5px; /* Adds some padding inside the border */
+}
+
+/* Zoom-out effect on hover */
+.hardware-pic:hover {
+    transform: scale(0.9); /* Zoom out a little */
+    border-color: #333; /* Change border color on hover */
+}
+
+/* Center and Style Hardware Title */
+.hardware-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center; /* Center the title */
+}
+
+/* Center and Align Hardware Section */
+.software {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Add space between images */
+    margin-bottom: 20px;
+    text-align: center; /* Center the text under images */
+}
+
+.software-item {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center the image and text */
+}
+
+.software-pic {
+    width: 100px; /* Adjust the image size */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.googlesheet-pic {
+    display: flex;
+    width: 73px; /* Adjust the image size */
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Zoom-out effect on hover */
+    .googlesheet-pic:hover {
+        transform: scale(0.9); /* Zoom out a little */
+        border-color: #333; /* Change border color on hover */
     }
 
-    .circle {
-        width: 100px;
-        height: 100px;
-        font-size: 24px;
+/* Zoom-out effect on hover */
+    .software-pic:hover {
+        transform: scale(0.9); /* Zoom out a little */
+        border-color: #333; /* Change border color on hover */
     }
 
-    .table-container {
-        margin-top: 20px;
+    .credits-item {
+        flex-direction: row; /* Keep the image and text side by side in responsive mode */
+        justify-content: flex-start; /* Ensure the items don't stack vertically */
     }
 
-    table {
-        width: 100%;
+    .profile-pic {
+        width: 120px;
+        height: 120px;
     }
 
-    th, td {
-        padding: 8px;
+    .credit-description {
+        flex: 1;
+        text-align: left; /* Maintain left-aligned text even in mobile view */
+    }
+
+    .credit-description h3 {
+        font-size: 20px;
+    }
+
+    .credit-description p {
+        font-size: 14px;
+    }
+
+/* Center and Style Hardware Title */
+    .software-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: center; /* Center the title */
     }
 
     .footer {
