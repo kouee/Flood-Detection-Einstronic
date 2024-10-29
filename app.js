@@ -1,7 +1,7 @@
 // Google Sheets API details
-const SHEET_ID = '1Bn88LtJoxqHYvokRoldJ54N-9wFhz2lRuDUAALSmot4';
+const SHEET_ID = '1C9LpY3350dt7frggzjZYFBytiiXxBja7juOTuyBGZDg';
 const API_KEY = 'AIzaSyAQwSlxWgIRV87jDZbRHqk1Ex9T3mPkGLo';
-const range = 'EinstronicWaterLevel!A:B'; // Adjust range if necessary
+const range = 'Sheet1!A:B'; // Adjust range if necessary
 
 const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}?key=${API_KEY}`;
 
